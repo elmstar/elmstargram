@@ -55,6 +55,15 @@ footer {
     height: 100vh;
 }
 .profile-main {
-
+height: 150px;
 }
-
+.profile-avatar {
+    width:100px;
+    height:100px;
+    float:left;
+    margin: 10px;
+    border:1px solid #c597e3;
+}
+.tab-menu {
+    height:40px;
+}

@@ -16,8 +16,5 @@ class Controller extends BaseController
         'developer' => 'API',
         'jobs' => 'Вакансии'
     ];
-    public function welcome() {
 
-		return view('welcome');
-	}
 }

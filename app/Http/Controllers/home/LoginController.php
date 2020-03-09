@@ -7,19 +7,23 @@ use App\Http\Controllers\Controller;
 
 class LoginController extends Controller
 {
-    public function regOpen() {
+    public function welcome() {                     // Стартовая страница
+
+        return view('welcome');
+    }
+    public function regOpen() {                     // Страница регистрации(открываем форму ввода)
 
         return view('home.reg');
     }
-    public function regSave(Request $request) {
+    public function regSave(Request $request) {     // Страница регистрации(сохранение данных из формы)
 
 
     }
-    public function loginOpen() {
+    public function loginOpen() {                   // Страница аутентификации(открытие формы)
         return view('home.login');
     }
 
-    public function loginIncome(Request $request) {
+    public function loginIncome(Request $request) { // страница аутентификации(обработка введённых данных)
 
     }
 }

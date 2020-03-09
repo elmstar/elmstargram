@@ -14,12 +14,4 @@ class HomeController extends Controller
     public function like() {
         return view('home.like');
     }
-    public function profile($nik = null) {
-        return view('home.profile');
-}
-    public function about()
-    {
-        dump(\request()->ajax());
-        return view('home.about');
-    }
 }

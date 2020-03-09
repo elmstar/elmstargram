@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d8c8a8ec-4d2f-484a-b53e-147ee62bf72d" name="Default Changelist" comment="" />
+    <list default="true" id="d8c8a8ec-4d2f-484a-b53e-147ee62bf72d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/home/ProfileController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/profile/edit/main.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/profile/profilePhoto.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/profile/profileSaved.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/profile/profileTagged.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/profile/profileVideo.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/home/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/home/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/home/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/home/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/default.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/help/dev.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/help/dev.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/help/help.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/help/help.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/help/jobs.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/help/jobs.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/interesting.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/interesting.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/like.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/like.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/profile.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profile/profile.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/searching.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/searching.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +73,9 @@
         <option value="CSS File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -149,6 +176,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1YdDB3Qo8DrR6VBoRHGX4pYi2pc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -157,6 +185,7 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mariadb" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -164,6 +193,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/profile" />
       <recent name="$PROJECT_DIR$/resources/views/home" />
       <recent name="$PROJECT_DIR$/app/Http/Controllers/home" />
     </key>
@@ -192,7 +222,8 @@
       <workItem from="1583667699074" duration="3619000" />
       <workItem from="1583680533552" duration="12726000" />
       <workItem from="1583703393086" duration="977000" />
-      <workItem from="1583739142099" duration="4038000" />
+      <workItem from="1583739142099" duration="5690000" />
+      <workItem from="1583752135986" duration="8427000" />
     </task>
     <servers />
   </component>
@@ -212,10 +243,18 @@
       <screen x="0" y="0" width="1366" height="736" />
     </state>
     <state x="440" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.736@0.0.1366.736" timestamp="1583669009857" />
+    <state x="302" y="0" key="CommitChangelistDialog2" timestamp="1583761217858">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state x="302" y="0" key="CommitChangelistDialog2/0.0.1366.736@0.0.1366.736" timestamp="1583761217858" />
     <state x="466" y="126" width="434" height="488" key="FileChooserDialogImpl" timestamp="1583427545113">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
     <state x="466" y="126" width="434" height="488" key="FileChooserDialogImpl/0.0.1366.736@0.0.1366.736" timestamp="1583427545113" />
+    <state x="278" y="104" width="810" height="532" key="Vcs.Push.Dialog.v2" timestamp="1583751722383">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state x="278" y="104" width="810" height="532" key="Vcs.Push.Dialog.v2/0.0.1366.736@0.0.1366.736" timestamp="1583751722383" />
     <state x="378" y="195" key="com.intellij.ide.util.TipDialog" timestamp="1583263454437">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
