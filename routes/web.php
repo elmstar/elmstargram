@@ -25,3 +25,7 @@ Route::get('/about', 'help\HelpController@about')->name('about');
 Route::get('/help', 'help\HelpController@help')->name('help');
 Route::get('/developer','help\HelpController@dev')->name('developer');
 Route::get('/jobs', 'help\HelpController@jobs')->name('jobs');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
