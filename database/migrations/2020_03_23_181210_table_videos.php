@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class AddSavedTable extends Migration
+class TableVideos extends Migration
 {
     /**
      * Run the migrations.
@@ -13,11 +13,13 @@ class AddSavedTable extends Migration
      */
     public function up()
     {
-        Schema::create('saved', function (Blueprint $table) {
+        Schema::create('videos', function (Blueprint $table) {
             $table->id();
-            $table->text('body');
-            $table->bigInteger('saved_id');
-            $table->enum('saved_type',['article', 'photo', 'video']);
+            $table->string('title', 255);
+            $table->string('file_name', 255);
+            $table->bigInteger('author_id')->unsigned();
+            $table->timestamps();
+            $table->foreign('author_id')->references('id')->on('users');
         });
     }
 
@@ -28,6 +30,6 @@ class AddSavedTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('saved');
+        Schema::dropIfExists('videos');
     }
 }

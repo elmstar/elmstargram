@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class AddSavedTable extends Migration
+class TableComments extends Migration
 {
     /**
      * Run the migrations.
@@ -13,11 +13,11 @@ class AddSavedTable extends Migration
      */
     public function up()
     {
-        Schema::create('saved', function (Blueprint $table) {
+        Schema::create('comments', function (Blueprint $table) {
             $table->id();
             $table->text('body');
-            $table->bigInteger('saved_id');
-            $table->enum('saved_type',['article', 'photo', 'video']);
+            $table->bigInteger('commentable_id');
+            $table->enum('commentable_type',['article', 'photo', 'video']);
         });
     }
 
@@ -28,6 +28,6 @@ class AddSavedTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('saved');
+        Schema::dropIfExists('comments');
     }
 }

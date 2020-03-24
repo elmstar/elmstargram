@@ -19,10 +19,6 @@ header {
 .global-content {
 
 }
-
-.main-menu {
-
-}
 .mainMenuItem {
     display: block;
     border: 1px solid #9a5a9a;
@@ -40,9 +36,35 @@ header {
 .mainMenuItemCurrent {
     background-color: #ff9dff;
 }
+.leftMenu {
+    float: left;
+}
+.profile-edit-content {
+    float:left;
+}
+.leftMenuItem {
+    display: block;
+    border: 1px solid #9a5a9a;
+    list-style: none;
+    padding:0 5px;
+    width:200px;
+}
+.leftMenuItem > a {
+    text-decoration: none;
+}
+.leftMenuItemCurrent {
+    background-color: #ff9dff;
+}
+.list100 {
+    width:100px;
+}
 .global-content {
     clear: left;
     min-height:70vh;
+}
+textarea {
+    width: 500px;
+    height:300px;
 }
 footer {
     display: block;
@@ -50,7 +72,6 @@ footer {
 .footer-menu {
 
 }
-
 .full-height {
     height: 100vh;
 }

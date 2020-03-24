@@ -2,16 +2,17 @@
 
 namespace App\Http\Controllers\home;
 
+use App\User;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
 class LoginController extends Controller
 {
     public function welcome() {                     // Стартовая страница
-
-        return view('welcome');
+        $users = User::all();
+        return view('welcome',['users'=>$users]);
     }
-    public function regOpen() {                     // Страница регистрации(открываем форму ввода)
+    /*public function regOpen() {                     // Страница регистрации(открываем форму ввода)
 
         return view('home.reg');
     }
@@ -25,5 +26,5 @@ class LoginController extends Controller
 
     public function loginIncome(Request $request) { // страница аутентификации(обработка введённых данных)
 
-    }
+    }*/
 }

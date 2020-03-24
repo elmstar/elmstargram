@@ -3,12 +3,10 @@
         <div>
             <div class="content">
                 <div>
-                    <p>Стартовая страница. Если не авторизован - переносит на страницу регистрации</p>
-                    <p>Пока здесь просто ссылки на регистрацию и аутентификацию</p>
-                    <table>
-                        <tr><td><a href="{{route('registration')}}">Регистрация</a></td></tr>
-                        <tr><td><a href="{{route('login')}}">Аутентификация</a></td></tr>
-                    </table>
+                   <p>Список интересных тем</p>
+                    @php
+                    dump(request()->route_name);
+                    @endphp
                 </div>
             </div>
         </div>

@@ -8,6 +8,7 @@ use Illuminate\Routing\Route;
 
 class HomeController extends Controller
 {
+
     public function interesting() {
         return view('home.interesting');
     }

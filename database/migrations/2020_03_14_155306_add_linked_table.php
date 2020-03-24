@@ -13,15 +13,13 @@ class AddLinkedTable extends Migration
      */
     public function up()
     {
-        Schema::create('linked', function (Blueprint $table) {
+        Schema::create('likeds', function (Blueprint $table) {
             $table->id();
-            $table->bigInteger('data_id')->unsigned();
-            $table->bigInteger('user_id')->unsigned();
-            $table->foreign('data_id')->references('id')->on('data');
-            $table->foreign('user_id')->references('id')->on('users');
+            $table->text('body');
+            $table->bigInteger('likable_id');
+            $table->enum('likable_type',['article', 'photo', 'video']);
         });
     }
-
     /**
      * Reverse the migrations.
      *
@@ -29,6 +27,6 @@ class AddLinkedTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('linked');
+        Schema::dropIfExists('likeds');
     }
 }

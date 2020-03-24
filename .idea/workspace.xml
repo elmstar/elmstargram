@@ -1,42 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d8c8a8ec-4d2f-484a-b53e-147ee62bf72d" name="Default Changelist" comment="Наброски, частично нарисовал профиль">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ConfirmPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ForgotPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/data.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_03_14_142023_add_data_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_03_14_155306_add_linked_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_03_14_160239_add_saved_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/passwords/confirm.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/verify.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/80.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/80.iml" afterDir="false" />
+    <list default="true" id="d8c8a8ec-4d2f-484a-b53e-147ee62bf72d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Article.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Comment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_03_23_174331_table_comments.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_03_23_181155_table_photos.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_03_23_181210_table_videos.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/profile/edit/include/profileEdit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/profile/edit/include/profileEditActive.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/profile/edit/include/profileEditChange.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/profile/edit/include/profileEditPush.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/profile/edit/include/profileEditSecure.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/profile/profileText.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/profile/profileTextNew.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/b7dfdfdc-c736-4b7c-852b-2f55b73947ae.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b7dfdfdc-c736-4b7c-852b-2f55b73947ae.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/home/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/home/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/home/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/home/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/home/ProfileController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/home/ProfileController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_14_142023_add_data_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_03_23_181119_table_articles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_14_155306_add_linked_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_03_14_155306_add_linked_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_14_160239_add_saved_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_03_14_160239_add_saved_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/default.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/default.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/default.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/profile/edit/main.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profile/edit/main.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/profile/profile.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profile/profile.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +71,13 @@
         <item name="MariaDB - elmstargram@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="elmstargram: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MariaDB - elmstargram@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="elmstargram: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+        <item name="articles: table" type="dbc44a63:MariaImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -206,6 +209,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/profile/" />
       <recent name="$PROJECT_DIR$/resources/views/profile" />
       <recent name="$PROJECT_DIR$/resources/views/home" />
       <recent name="$PROJECT_DIR$/app/Http/Controllers/home" />
@@ -243,7 +247,10 @@
       <workItem from="1584033737302" duration="4155000" />
       <workItem from="1584195332208" duration="8022000" />
       <workItem from="1584295709144" duration="1029000" />
-      <workItem from="1584460678982" duration="1074000" />
+      <workItem from="1584460678982" duration="3241000" />
+      <workItem from="1584853341189" duration="20517000" />
+      <workItem from="1584982591561" duration="12252000" />
+      <workItem from="1585066240074" duration="6412000" />
     </task>
     <task id="LOCAL-00001" summary="Наброски, частично нарисовал профиль">
       <created>1583761306086</created>
@@ -252,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583761306086</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Наброски, частично нарисовал профиль">
+      <created>1584461936595</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584461936596</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,22 +289,30 @@
       <screen x="0" y="0" width="1366" height="736" />
     </state>
     <state x="440" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.736@0.0.1366.736" timestamp="1583669009857" />
-    <state x="302" y="0" width="993" height="736" key="CommitChangelistDialog2" timestamp="1584461763981">
+    <state x="302" y="0" width="993" height="736" key="CommitChangelistDialog2" timestamp="1584461935094">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
-    <state x="302" y="0" width="993" height="736" key="CommitChangelistDialog2/0.0.1366.736@0.0.1366.736" timestamp="1584461763981" />
+    <state x="302" y="0" width="993" height="736" key="CommitChangelistDialog2/0.0.1366.736@0.0.1366.736" timestamp="1584461935094" />
     <state x="466" y="126" width="434" height="488" key="FileChooserDialogImpl" timestamp="1583427545113">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
     <state x="466" y="126" width="434" height="488" key="FileChooserDialogImpl/0.0.1366.736@0.0.1366.736" timestamp="1583427545113" />
+    <state width="225" height="456" key="HiddenNamespacesPopup" timestamp="1585072576013">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state width="225" height="456" key="HiddenNamespacesPopup/0.0.1366.736@0.0.1366.736" timestamp="1585072576013" />
+    <state x="503" y="294" width="359" height="151" key="NewPhpFileDialog" timestamp="1584992641160">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state x="503" y="294" width="359" height="151" key="NewPhpFileDialog/0.0.1366.736@0.0.1366.736" timestamp="1584992641159" />
     <state x="243" y="0" width="974" height="736" key="Vcs.Push.Dialog.v2" timestamp="1583761327500">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
     <state x="243" y="0" width="974" height="736" key="Vcs.Push.Dialog.v2/0.0.1366.736@0.0.1366.736" timestamp="1583761327500" />
-    <state x="585" y="266" width="324" height="232" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1584200482997">
+    <state x="585" y="266" width="324" height="232" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1584987464062">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
-    <state x="585" y="266" width="324" height="232" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1366.736@0.0.1366.736" timestamp="1584200482997" />
+    <state x="585" y="266" width="324" height="232" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1366.736@0.0.1366.736" timestamp="1584987464062" />
     <state x="378" y="195" key="com.intellij.ide.util.TipDialog" timestamp="1583263454437">
       <screen x="0" y="0" width="1366" height="736" />
     </state>

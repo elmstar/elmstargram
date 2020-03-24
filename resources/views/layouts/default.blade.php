@@ -52,10 +52,41 @@
                 class="mainMenuItem"
                 @endif
             >
-                <a href="{{route("profile")}}">Профиль</a>
+               {{-- <a href="{{route("profile")}}">Профиль</a>--}}
             </li>
         </ul>
-    </nav>
+
+
+{{-- Аутентификация старт --}}
+        <ul>
+            @guest
+                <li class="mainMenuItem">
+                    <a href="{{ route('login') }}">{{ __('Login') }}</a>
+                </li>
+                @if (Route::has('register'))
+                    <li class="mainMenuItem">
+                        <a href="{{ route('register') }}">{{ __('Register') }}</a>
+                    </li>
+                @endif
+            @else
+                <li class="mainMenuItem">
+                    <a class="mainMenuItem" href="{{route('profile',['nik' => Auth::user()->name])}}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                        {{ Auth::user()->name }} <span class="caret"></span>
+                    </a>
+                        <a href="{{ route('logout') }}"
+                           onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                            {{ __('Logout') }}
+                        </a>
+                        <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                            @csrf
+                        </form>
+                </li>
+            @endguest
+        </ul>
+        </nav>
+        {{-- Аутентификация стоп --}}
+
     </header>
     <div class="global-content">
         @yield("content")
