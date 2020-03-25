@@ -17,7 +17,8 @@ class TableComments extends Migration
             $table->id();
             $table->text('body');
             $table->bigInteger('commentable_id');
-            $table->enum('commentable_type',['article', 'photo', 'video']);
+            $table->enum('commentable_type',['Article', 'Photo', 'Video']);
+            $table->timestamps();
         });
     }
 

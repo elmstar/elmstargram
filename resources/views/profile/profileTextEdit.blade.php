@@ -22,15 +22,17 @@
             </ul>
         </nav>
     </div>
-<div class="">
+<div class="profile-edit-content">
     <H2>Новая публикация</H2>
-    <form action="{{route('profileArticleNew',['nik' => Auth::user()->name])}}" method="POST">
+    <form action="{{route('profileArticleEdit',['nik' => Auth::user()->name,'id'=>$article->id])}}" method="POST">
         <div>
             {{ csrf_field() }}
-            <input name="title" class="article-title">
+            <input type="hidden" name="id" value="{{$article->id}}">
+            <input type="hidden" name="author_id" value="{{$article->author_id}}">
+            <input name="title" class="article-title" value="{{$article->title}}">
         </div>
         <div>
-            <textarea name="text"></textarea>
+            <textarea name="text">{{$article->text}}</textarea>
         </div>
         <div>
             <input name="tags">
@@ -40,4 +42,5 @@
         </div>
     </form>
 </div>
+    <div class="clear"></div>
 @endsection

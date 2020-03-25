@@ -22,22 +22,29 @@
             </ul>
         </nav>
     </div>
-<div class="">
-    <H2>Новая публикация</H2>
-    <form action="{{route('profileArticleNew',['nik' => Auth::user()->name])}}" method="POST">
+<div class="profile-edit-content">
         <div>
-            {{ csrf_field() }}
-            <input name="title" class="article-title">
+            <h1>{{$article->title}}</h1>
+            <p>Автор: {{$article->author->name}}"</p>
         </div>
         <div>
-            <textarea name="text"></textarea>
+            <p>{{$article->text}}</p>
         </div>
-        <div>
-            <input name="tags">
-        </div>
-        <div>
-            <input type="submit" value="Сохранить">
-        </div>
-    </form>
 </div>
+    <div class="clear"></div>
+    <div class="comments">
+        <h3>Комментарии</h3>
+        @php
+        //dump($article->comments()->get());
+        @endphp
+
+        @foreach ($article->comments AS $comment)
+            {{dump($comment)}}
+        @endforeach
+        <form action="{{route('profileArticleView',['nik' => Auth::user()->name,'id'=>$article->id])}}" method="POST">
+            {{ csrf_field() }}
+            <textarea name="articleComment"></textarea>
+            <input type="submit" value="Отправить">
+        </form>
+    </div>
 @endsection

@@ -2,36 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8c8a8ec-4d2f-484a-b53e-147ee62bf72d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Article.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Comment.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_03_23_174331_table_comments.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_03_23_181155_table_photos.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_03_23_181210_table_videos.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/profile/edit/include/profileEdit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/profile/edit/include/profileEditActive.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/profile/edit/include/profileEditChange.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/profile/edit/include/profileEditPush.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/profile/edit/include/profileEditSecure.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/profile/profileText.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/profile/profileTextNew.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/profile/profileTextEdit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/profile/profileTextView.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/b7dfdfdc-c736-4b7c-852b-2f55b73947ae.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b7dfdfdc-c736-4b7c-852b-2f55b73947ae.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/home/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/home/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/home/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/home/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Article.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Comment.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/home/ProfileController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/home/ProfileController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_14_142023_add_data_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_03_23_181119_table_articles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_14_155306_add_linked_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_03_14_155306_add_linked_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_14_160239_add_saved_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_03_14_160239_add_saved_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_23_174331_table_comments.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_03_23_174331_table_comments.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/default.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/default.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/default.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/profile/edit/main.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profile/edit/main.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/profile/profile.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profile/profile.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/profile/profileText.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profile/profileText.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/profile/profileTextNew.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profile/profileTextNew.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,6 +59,13 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="elmstargram: schema" type="ebfa3cd1:MariaImplModel$Schema" />
         <item name="articles: table" type="dbc44a63:MariaImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MariaDB - elmstargram@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="elmstargram: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+        <item name="comments: table" type="dbc44a63:MariaImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -203,11 +191,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/profile" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/profile" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/resources/views/profile/" />
       <recent name="$PROJECT_DIR$/resources/views/profile" />
@@ -250,7 +241,8 @@
       <workItem from="1584460678982" duration="3241000" />
       <workItem from="1584853341189" duration="20517000" />
       <workItem from="1584982591561" duration="12252000" />
-      <workItem from="1585066240074" duration="6412000" />
+      <workItem from="1585066240074" duration="12564000" />
+      <workItem from="1585110520094" duration="8807000" />
     </task>
     <task id="LOCAL-00001" summary="Наброски, частично нарисовал профиль">
       <created>1583761306086</created>
@@ -266,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584461936596</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="24.03.2020 промежуточная фиксация">
+      <created>1585072906420</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1585072906420</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,7 +273,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Наброски, частично нарисовал профиль" />
-    <option name="LAST_COMMIT_MESSAGE" value="Наброски, частично нарисовал профиль" />
+    <MESSAGE value="24.03.2020 промежуточная фиксация" />
+    <option name="LAST_COMMIT_MESSAGE" value="24.03.2020 промежуточная фиксация" />
   </component>
   <component name="WindowStateProjectService">
     <state x="278" y="29" width="810" height="681" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583568056638">
@@ -289,10 +289,10 @@
       <screen x="0" y="0" width="1366" height="736" />
     </state>
     <state x="440" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.736@0.0.1366.736" timestamp="1583669009857" />
-    <state x="302" y="0" width="993" height="736" key="CommitChangelistDialog2" timestamp="1584461935094">
+    <state x="302" y="0" width="993" height="736" key="CommitChangelistDialog2" timestamp="1585072905294">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
-    <state x="302" y="0" width="993" height="736" key="CommitChangelistDialog2/0.0.1366.736@0.0.1366.736" timestamp="1584461935094" />
+    <state x="302" y="0" width="993" height="736" key="CommitChangelistDialog2/0.0.1366.736@0.0.1366.736" timestamp="1585072905294" />
     <state x="466" y="126" width="434" height="488" key="FileChooserDialogImpl" timestamp="1583427545113">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
@@ -305,10 +305,10 @@
       <screen x="0" y="0" width="1366" height="736" />
     </state>
     <state x="503" y="294" width="359" height="151" key="NewPhpFileDialog/0.0.1366.736@0.0.1366.736" timestamp="1584992641159" />
-    <state x="243" y="0" width="974" height="736" key="Vcs.Push.Dialog.v2" timestamp="1583761327500">
+    <state x="243" y="0" width="974" height="736" key="Vcs.Push.Dialog.v2" timestamp="1585072923292">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
-    <state x="243" y="0" width="974" height="736" key="Vcs.Push.Dialog.v2/0.0.1366.736@0.0.1366.736" timestamp="1583761327500" />
+    <state x="243" y="0" width="974" height="736" key="Vcs.Push.Dialog.v2/0.0.1366.736@0.0.1366.736" timestamp="1585072923292" />
     <state x="585" y="266" width="324" height="232" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1584987464062">
       <screen x="0" y="0" width="1366" height="736" />
     </state>

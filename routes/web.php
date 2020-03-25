@@ -25,6 +25,11 @@ Route::group(['middleware' => ['auth']], function () {
             Route::get('/new', 'home\ProfileController@profileArticleNew')->name('profileArticleNew');
             Route::post('/new', 'home\ProfileController@profileArticleNewSave');
 
+            Route::get('/edit/{id}', 'home\ProfileController@profileArticleEdit')->name('profileArticleEdit');
+            Route::post('/edit/{id}', 'home\ProfileController@profileArticleEditSave');
+            Route::get('/view/{id}', 'home\ProfileController@profileArticleView')->name('profileArticleView');
+            Route::post('/view/{id}', 'home\ProfileController@profileArticleViewAddComment');
+
             Route::get('/photo', 'home\ProfileController@profilePhoto')->name('profilePhoto');
             Route::get('/video', 'home\ProfileController@profileVideo')->name('profileVideo');
             Route::get('/saved', 'home\ProfileController@profileSaved')->name('profileSaved');
